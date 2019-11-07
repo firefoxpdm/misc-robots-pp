@@ -1,48 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-<name>Misc. Robots++</name>
-<author>Alaestor</author>
-<url>https://ludeon.com/forums/index.php?topic=26151.0</url>
+<name>Misc. Robots+++</name>
+<author>FireFoX</author>
+<url>https://github.com/firefoxpdm/misc-robots-pp</url>
 <supportedVersions><li>1.0</li></supportedVersions>
-<description>	Mod Version: 3.0.6
+<description>	Mod Version: 1.0.0
 
 *** Example Load Order ***
 - Core
 - Misc. Robots
 - Misc. Robots++
+- Misc. Robots+++
 
-Robots++ Contains The Following Bots:
+Robots+++ Changes The Following Bots:
 --- Kitchen Bot
-  A unit capable of cooking, and tending to plants.
+  Separated into kitchen and planter bot. The first one cooks and butchers, the second one tends the plants.
 
 --- Crafter Bot
-  A unit capable of smithing, tailoring, and crafting.
+  Separated into smithing, tailoring, and crafting bots. Each can only do their own things.
 
 --- Builder Bot
-  A unit capable of build and destroying structures.
+  Separated into builder and minder bot. The former can build and destroy stuff (also remove trees when necessary for building), the latter only mines.
 
---- ER Bot
-  An Emergency Response unit capable of treating patients and fighting fires.
-
---- Omni Bot
-  The OmniBot is at the end of the techtree
-  and requires you to research all of the other robots first.
-  The OmniBot can do the jobs of all the other robots.
-
-There are five tiers of robots:
-  Tier 1 Simple robots have Amateur skills (4),
-  Tier 2 Basic robots have Professional skills (8),
-  Tier 3 Intermediate robots have Master skills (13),
-  Tier 4 Advanced robots have System-Class Master skills (16),
-  Tier 5 Anti-Logic robots like the OmniBot have GodLike skills (20).
-
-Translations are included. If you would like to translate for R++, please use the /Languages/English/ folder as a template. When you've finished, message me and I'll include it in the mod.
-
-To contact me (Alaestor) please use Discord
-( visit http://public.FutureGadgetLab.net )
-
-Misc. Robots++ was made using the "Misc. Robots Xtension" provided by Haplo.
+To contact me (FireFoX) please use the github page. I'm promising any quick responses.
 </description>
 
 </ModMetaData>
