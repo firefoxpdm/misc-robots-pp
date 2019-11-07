@@ -21,9 +21,9 @@ Robots+++ Changes The Following Bots:
   Separated into smithing, tailoring, and crafting bots. Each can only do their own things.
 
 --- Builder Bot
-  Separated into builder and minder bot. The former can build and destroy stuff (also remove trees when necessary for building), the latter only mines.
+  Separated into builder and miner bot. The former can build and destroy stuff (also remove trees when necessary for building), the latter only mines.
 
-To contact me (FireFoX) please use the github page. I'm promising any quick responses.
+To contact me please use the github page. I'm not promising any quick responses.
 </description>
 
 </ModMetaData>
