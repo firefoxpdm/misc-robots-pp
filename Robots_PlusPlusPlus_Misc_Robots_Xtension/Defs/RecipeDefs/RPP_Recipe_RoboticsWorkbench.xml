@@ -4,35 +4,35 @@
 	<RecipeDef ParentName="RPP_Recipe_Bot_I">
 		<defName>RPP_Production_Miner_I</defName>
 		<label>make miner bot (Tier 1)</label>
-		<description>Produce a unit capable of construction, deconstruction, mining, and repairing with amateur-class ability.</description>
+		<description>Produce a unit capable of mining with amateur-class ability.</description>
 		<products><RPP_RechargeStation_Miner_I>1</RPP_RechargeStation_Miner_I></products>
 		<researchPrerequisite>RPP_Research_Builder_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_II">
 		<defName>RPP_Production_Miner_II</defName>
 		<label>make miner bot (Tier 2)</label>
-		<description>Produce a unit capable of construction, deconstruction, mining, and repairing with professional-class ability.</description>
+		<description>Produce a unit capable of mining with professional-class ability.</description>
 		<products><RPP_RechargeStation_Miner_II>1</RPP_RechargeStation_Miner_II></products>
 		<researchPrerequisite>RPP_Research_Builder_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_III">
 		<defName>RPP_Production_Miner_III</defName>
 		<label>make miner bot (Tier 3)</label>
-		<description>Produce a unit capable of construction, deconstruction, mining, and repairing with master-class ability.</description>
+		<description>Produce a unit capable of mining with master-class ability.</description>
 		<products><RPP_RechargeStation_Miner_III>1</RPP_RechargeStation_Miner_III></products>
 		<researchPrerequisite>RPP_Research_Builder_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_IV">
 		<defName>RPP_Production_Miner_IV</defName>
 		<label>make miner bot (Tier 4)</label>
-		<description>Produce a unit capable of construction, deconstruction, mining, and repairing with system-master-class ability.</description>
+		<description>Produce a unit capable of mining with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Miner_IV>1</RPP_RechargeStation_Miner_IV></products>
 		<researchPrerequisite>RPP_Research_Builder_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_V">
 		<defName>RPP_Production_Miner_V</defName>
 		<label>make miner bot (Tier 5)</label>
-		<description>Produce a unit capable of construction, deconstruction, mining, and repairing with system-master-class ability.</description>
+		<description>Produce a unit capable of mining with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Miner_V>1</RPP_RechargeStation_Miner_V></products>
 		<researchPrerequisite>RPP_Research_Builder_All</researchPrerequisite>
 	</RecipeDef>
@@ -40,35 +40,35 @@
 	<RecipeDef ParentName="RPP_Recipe_Bot_I">
 		<defName>RPP_Production_Tailor_I</defName>
 		<label>make tailor bot (Tier 1)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with amateur-class ability.</description>
+		<description>Produce a unit capable of tailoring with amateur-class ability.</description>
 		<products><RPP_RechargeStation_Tailor_I>1</RPP_RechargeStation_Tailor_I></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_II">
 		<defName>RPP_Production_Tailor_II</defName>
 		<label>make tailor bot (Tier 2)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with professional-class ability.</description>
+		<description>Produce a unit capable of tailoring with professional-class ability.</description>
 		<products><RPP_RechargeStation_Tailor_II>1</RPP_RechargeStation_Tailor_II></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_III">
 		<defName>RPP_Production_Tailor_III</defName>
 		<label>make tailor bot (Tier 3)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with master-class ability.</description>
+		<description>Produce a unit capable of tailoring with master-class ability.</description>
 		<products><RPP_RechargeStation_Tailor_III>1</RPP_RechargeStation_Tailor_III></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_IV">
 		<defName>RPP_Production_Tailor_IV</defName>
 		<label>make tailor bot (Tier 4)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with system-master-class ability.</description>
+		<description>Produce a unit capable of tailoring with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Tailor_IV>1</RPP_RechargeStation_Tailor_IV></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_V">
 		<defName>RPP_Production_Tailor_V</defName>
 		<label>make tailor bot (Tier 5)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with system-master-class ability.</description>
+		<description>Produce a unit capable of tailoring with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Tailor_V>1</RPP_RechargeStation_Tailor_V></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
@@ -77,35 +77,35 @@
 	<RecipeDef ParentName="RPP_Recipe_Bot_I">
 		<defName>RPP_Production_Smither_I</defName>
 		<label>make smither bot (Tier 1)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with amateur-class ability.</description>
+		<description>Produce a unit capable of smithing with amateur-class ability.</description>
 		<products><RPP_RechargeStation_Smither_I>1</RPP_RechargeStation_Smither_I></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_II">
 		<defName>RPP_Production_Smither_II</defName>
 		<label>make smither bot (Tier 2)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with professional-class ability.</description>
+		<description>Produce a unit capable of smithing with professional-class ability.</description>
 		<products><RPP_RechargeStation_Smither_II>1</RPP_RechargeStation_Smither_II></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_III">
 		<defName>RPP_Production_Smither_III</defName>
 		<label>make smither bot (Tier 3)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with master-class ability.</description>
+		<description>Produce a unit capable of smithing with master-class ability.</description>
 		<products><RPP_RechargeStation_Smither_III>1</RPP_RechargeStation_Smither_III></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_IV">
 		<defName>RPP_Production_Smither_IV</defName>
 		<label>make smither bot (Tier 4)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with system-master-class ability.</description>
+		<description>Produce a unit capable of smithing with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Smither_IV>1</RPP_RechargeStation_Smither_IV></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_V">
 		<defName>RPP_Production_Smither_V</defName>
 		<label>make smither bot (Tier 5)</label>
-		<description>Produce a unit capable of crafting, smithing, and tailoring with system-master-class ability.</description>
+		<description>Produce a unit capable of smithing with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Smither_V>1</RPP_RechargeStation_Smither_V></products>
 		<researchPrerequisite>RPP_Research_Crafter_All</researchPrerequisite>
 	</RecipeDef>
@@ -113,35 +113,35 @@
 	<RecipeDef ParentName="RPP_Recipe_Bot_I">
 		<defName>RPP_Production_Planter_I</defName>
 		<label>make planter bot (Tier 1)</label>
-		<description>Produce a unit capable of cooking and tending to plants with amateur-class ability.</description>
+		<description>Produce a unit capable of tending to plants with amateur-class ability.</description>
 		<products><RPP_RechargeStation_Planter_I>1</RPP_RechargeStation_Planter_I></products>
 		<researchPrerequisite>RPP_Research_Kitchen_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_II">
 		<defName>RPP_Production_Planter_II</defName>
 		<label>make planter bot (Tier 2)</label>
-		<description>Produce a unit capable of cooking and tending to plants with professional-class ability.</description>
+		<description>Produce a unit capable of tending to plants with professional-class ability.</description>
 		<products><RPP_RechargeStation_Planter_II>1</RPP_RechargeStation_Planter_II></products>
 		<researchPrerequisite>RPP_Research_Kitchen_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_III">
 		<defName>RPP_Production_Planter_III</defName>
 		<label>make planter bot (Tier 3)</label>
-		<description>Produce a unit capable of cooking and tending to plants with master-class ability.</description>
+		<description>Produce a unit capable of tending to plants with master-class ability.</description>
 		<products><RPP_RechargeStation_Planter_III>1</RPP_RechargeStation_Planter_III></products>
 		<researchPrerequisite>RPP_Research_Kitchen_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_IV">
 		<defName>RPP_Production_Planter_IV</defName>
 		<label>make planter bot (Tier 4)</label>
-		<description>Produce a unit capable of cooking and tending to plants with system-master-class ability.</description>
+		<description>Produce a unit capable of tending to plants with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Planter_IV>1</RPP_RechargeStation_Planter_IV></products>
 		<researchPrerequisite>RPP_Research_Kitchen_All</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef ParentName="RPP_Recipe_Bot_V">
 		<defName>RPP_Production_Planter_V</defName>
 		<label>make planter bot (Tier 5)</label>
-		<description>Produce a unit capable of cooking and tending to plants with system-master-class ability.</description>
+		<description>Produce a unit capable of tending to plants with system-master-class ability.</description>
 		<products><RPP_RechargeStation_Planter_V>1</RPP_RechargeStation_Planter_V></products>
 		<researchPrerequisite>RPP_Research_Kitchen_All</researchPrerequisite>
 	</RecipeDef>
