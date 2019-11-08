@@ -7,7 +7,9 @@
 <supportedVersions><li>1.0</li></supportedVersions>
 <description>	Mod Version: 1.0.0
 
-Not sure how dependencies work. Contains two new images replacing the normal and VG Tools' advanced hydrophonics basins with ones that actually has some soil in it as I hate that the plants are just hanging in the air. No clue what happens when VG is not there.
+Contains a new image replacing the normal hydroponics basins with one that actually has some soil in it as I hate that the plants are just hanging in the air.
+
+If VGP Tools is also installed, it replaced the advanced hydroponics basin with one that has tilled soil in it.
 </description>
 
 </ModMetaData>
