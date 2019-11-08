@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>VGP Garden Tools</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName = "ADVHydroponicsBasin"]/graphicData/texPath</xpath>
+            <value>
+				<texPath>Things/Building/Production/AdvancedHydroponicsBasin</texPath>
+			</value>
+        </match>
+    </Operation>
+
+	
+</Patch>
+
