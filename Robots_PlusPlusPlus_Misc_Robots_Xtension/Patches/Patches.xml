@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Misc. Robots++</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName = "RPP_Recipe_FastItem"]/workAmount</xpath>
+            <value>
+				<workAmount>5000</workAmount>
+			</value>
+        </match>
+    </Operation>
+	
+</Patch>
+
