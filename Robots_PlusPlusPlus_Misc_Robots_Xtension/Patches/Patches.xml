@@ -5,10 +5,10 @@
         <mods>
             <li>Misc. Robots++</li>
         </mods>
-        <match Class="PatchOperationReplace">
-            <xpath>/Defs/RecipeDef[defName = "RPP_Recipe_FastItem"]/workAmount</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName = "RPP_Production_Component"]</xpath>
             <value>
-				<workAmount>5000</workAmount>
+				<workAmount>8000</workAmount>
 			</value>
         </match>
     </Operation>
