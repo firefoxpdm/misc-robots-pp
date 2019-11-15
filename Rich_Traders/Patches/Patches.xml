@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[1.0] Android tiers</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Base_AndroidCollective_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>120000</min>
+							<max>300000</max>
+						</countRange>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Caravan_AndroidCollective_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>125000</min>
+							<max>220000</max>
+						</countRange>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Caravan_AndroidCollective_CombatSupplier"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>250000</min>
+							<max>320000</max>
+						</countRange>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Caravan_AndroidCollective_AndroidMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>375000</min>
+							<max>520000</max>
+						</countRange>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Caravan_AndroidCollective_HighTech"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>175000</min>
+							<max>220000</max>
+						</countRange>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TraderKindDef[defName = "Visitor_AndroidCollective_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+					<value>
+						<countRange>
+							<min>5000</min>
+							<max>25000</max>
+						</countRange>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Misc. Robots</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/TraderKindDef[defName = "AIRobotsTrader"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+			<value>
+				<countRange>
+					<min>70000</min>
+					<max>300000</max>
+				</countRange>
+			</value>
+        </match>
+    </Operation>
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Additional Joy Objects Lite</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/TraderKindDef[defName = "AJO_JoyTrader"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+			<value>
+				<countRange>
+					<min>1000000</min>
+					<max>3000000</max>
+				</countRange>
+			</value>
+        </match>
+    </Operation>
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Genetic Rim</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/TraderKindDef[defName = "GR_Mad_Science_Caravan"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+			<value>
+				<countRange>
+					<min>80000</min>
+					<max>300000</max>
+				</countRange>
+			</value>
+        </match>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>80000</min>
+				<max>300000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>80000</min>
+				<max>300000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_Slaver"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_ShamanMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_CombatSupplier"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>75000</min>
+				<max>120000</max>
+			</countRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>200000</min>
+				<max>400000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_CombatSupplier"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>200000</min>
+				<max>400000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>200000</min>
+				<max>400000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_PirateMerchant"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>200000</min>
+				<max>400000</max>
+			</countRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Visitor_Neolithic_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>5000</min>
+				<max>25000</max>
+			</countRange>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/TraderKindDef[defName = "Visitor_Outlander_Standard"]/stockGenerators/li[thingDef = "Silver"]/countRange</xpath>
+		<value>
+			<countRange>
+				<min>5000</min>
+				<max>25000</max>
+			</countRange>
+		</value>
+	</Operation>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</Patch>
+
