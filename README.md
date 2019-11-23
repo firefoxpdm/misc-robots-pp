@@ -13,6 +13,7 @@ Also increased the robotic component crafting time to 8000.
 # Hydroponics Soiled
 Add new images to normal and VGP Garden Tools hydroponics basins with soil in them.
 
-# Fishing robots
+# Additional robots
 Additional robot type:
 Fishing robot for Rainbeau Flambe's Fishing mod.
+Beekeeping robot for the RimBees mod.
