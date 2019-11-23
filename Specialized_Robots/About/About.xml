@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-<name>Misc. Robots+++</name>
+<name>Specialized Robots</name>
 <author>FireFoX</author>
 <url>https://github.com/firefoxpdm/rimworld-mods</url>
 <supportedVersions><li>1.0</li></supportedVersions>
@@ -11,9 +11,9 @@
 - Core
 - Misc. Robots
 - Misc. Robots++
-- Misc. Robots+++
+- Specialized Robots
 
-Robots+++ Changes The Following Bots:
+Specialized Robots changes the following bots:
 --- Kitchen Bot
   Separated into kitchen and planter bot. The first one cooks and butchers, the second one tends the plants.
 
@@ -21,7 +21,7 @@ Robots+++ Changes The Following Bots:
   Separated into smithing, tailoring, and crafting bots. Each can only do their own things.
 
 --- Builder Bot
-  Separated into builder and miner bot. The former can build and destroy stuff (also remove trees when necessary for building), the latter only mines.
+  Separated into builder and miner bot. The former can build and destroy stuff (also remove trees or mountains when necessary for building), the latter only mines.
 
 To contact me please use the github page. I'm not promising any quick responses.
 </description>
