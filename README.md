@@ -21,7 +21,7 @@ Fishing robot for Rainbeau Flambe's Fishing mod.
 
 Beekeeping robot for the RimBees mod.
 
-#Rich traders
+# Rich traders
 Changes the minimum and maximum amount of silver the traders have by multiplying them with 100. No other trait is modified.
 
 Traders of the following mods are affected:
