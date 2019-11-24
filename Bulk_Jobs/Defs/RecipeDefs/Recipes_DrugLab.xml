@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeSmokeJointBulk</defName>
+		<label>Make bulk smokeleaf joint</label>
+		<description>Make 10 smokeleaf joints.</description>
+		<jobString>Make 10 smokeleaf joints.</jobString>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>4780</workAmount>
+		<recipeUsers>
+			<li>DrugLab</li>	  
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<SmokeleafJoint>10</SmokeleafJoint>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>DrugProduction</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakePsychiteTeaBulk</defName>
+		<label>Make bulk psychite tea</label>
+		<description>Make 10 psychite teas.</description>
+		<jobString>Make 10 psychite teas.</jobString>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>4180</workAmount>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>  
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<PsychiteTea>10</PsychiteTea>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

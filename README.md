@@ -30,3 +30,6 @@ Traders of the following mods are affected:
 - Misc. Robots
 - Additional Joy Objects Lite
 - Genetic Rim
+
+# Bulk jobs
+Adds bulk versions of some of the bills (eg. psychite tea and smokeleaf making).
