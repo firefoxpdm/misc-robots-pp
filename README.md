@@ -33,3 +33,6 @@ Traders of the following mods are affected:
 
 # Bulk jobs
 Adds bulk versions of some of the bills (eg. psychite tea and smokeleaf making).
+
+# Sellable stone blocks
+Makes the stone blocks sellable to traders.
